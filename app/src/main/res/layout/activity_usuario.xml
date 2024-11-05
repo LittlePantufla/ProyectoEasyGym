@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <!-- Botón para cargar las imágenes -->
+    <Button
+        android:id="@+id/btnLoadImages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cargar Imágenes"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Imagen 1 -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="Imagen 1"
+        android:src="@drawable/jia"/>
+
+    <!-- Imagen 2 -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="Imagen 2"
+        android:src="@drawable/ugauga"/>
+
+    <!-- Imagen 3 -->
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="Imagen 3"
+        android:src="@drawable/boo"/>
+
+    <!-- Botón para regresar -->
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:textSize="10sp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
